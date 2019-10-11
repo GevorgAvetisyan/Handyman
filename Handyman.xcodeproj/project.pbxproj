@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		983A03F12350B53C00EB27C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */; };
 		987D34FA2350B48100446250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D34F92350B48100446250 /* AppDelegate.swift */; };
-		987D34FC2350B48100446250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D34FB2350B48100446250 /* SceneDelegate.swift */; };
 		987D34FE2350B48100446250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D34FD2350B48100446250 /* ViewController.swift */; };
 		987D35012350B48100446250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987D34FF2350B48100446250 /* Main.storyboard */; };
 		987D35032350B48200446250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987D35022350B48200446250 /* Assets.xcassets */; };
 		987D35062350B48200446250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987D35042350B48200446250 /* LaunchScreen.storyboard */; };
+		98BF65852350BC7B0047A3E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */; };
+		EDD9F1A6888CA27AE2055BD6 /* libPods-Handyman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FCF6F2659DC48006B3D14A /* libPods-Handyman.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		549E9867D7B46D3F7EA2FA55 /* Pods-Handyman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handyman.debug.xcconfig"; path = "Target Support Files/Pods-Handyman/Pods-Handyman.debug.xcconfig"; sourceTree = "<group>"; };
+		92FCF6F2659DC48006B3D14A /* libPods-Handyman.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Handyman.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		987D34F62350B48100446250 /* Handyman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handyman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987D34F92350B48100446250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		987D34FB2350B48100446250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		987D34FD2350B48100446250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		987D35002350B48100446250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		987D35022350B48200446250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		987D35052350B48200446250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		987D35072350B48200446250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2B4CD1FBFA933C973BE31FD /* Pods-Handyman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handyman.release.xcconfig"; path = "Target Support Files/Pods-Handyman/Pods-Handyman.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD9F1A6888CA27AE2055BD6 /* libPods-Handyman.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F4DE18F0084AF678E03721B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FCF6F2659DC48006B3D14A /* libPods-Handyman.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		987D34ED2350B48100446250 = {
 			isa = PBXGroup;
 			children = (
 				987D34F82350B48100446250 /* Handyman */,
 				987D34F72350B48100446250 /* Products */,
+				9EA8BCBDA67A240A819A1F3B /* Pods */,
+				8F4DE18F0084AF678E03721B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				987D34F92350B48100446250 /* AppDelegate.swift */,
-				987D34FB2350B48100446250 /* SceneDelegate.swift */,
 				987D34FD2350B48100446250 /* ViewController.swift */,
+				98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */,
 				987D34FF2350B48100446250 /* Main.storyboard */,
 				987D35022350B48200446250 /* Assets.xcassets */,
 				987D35042350B48200446250 /* LaunchScreen.storyboard */,
 				987D35072350B48200446250 /* Info.plist */,
+				983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */,
 			);
 			path = Handyman;
+			sourceTree = "<group>";
+		};
+		9EA8BCBDA67A240A819A1F3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				549E9867D7B46D3F7EA2FA55 /* Pods-Handyman.debug.xcconfig */,
+				E2B4CD1FBFA933C973BE31FD /* Pods-Handyman.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 987D350A2350B48200446250 /* Build configuration list for PBXNativeTarget "Handyman" */;
 			buildPhases = (
+				909D1715B204D809EFD9BAE4 /* [CP] Check Pods Manifest.lock */,
 				987D34F22350B48100446250 /* Sources */,
 				987D34F32350B48100446250 /* Frameworks */,
 				987D34F42350B48100446250 /* Resources */,
@@ -126,12 +154,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				987D35062350B48200446250 /* LaunchScreen.storyboard in Resources */,
+				983A03F12350B53C00EB27C7 /* GoogleService-Info.plist in Resources */,
 				987D35032350B48200446250 /* Assets.xcassets in Resources */,
 				987D35012350B48100446250 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		909D1715B204D809EFD9BAE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Handyman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		987D34F22350B48100446250 /* Sources */ = {
@@ -140,7 +194,7 @@
 			files = (
 				987D34FE2350B48100446250 /* ViewController.swift in Sources */,
 				987D34FA2350B48100446250 /* AppDelegate.swift in Sources */,
-				987D34FC2350B48100446250 /* SceneDelegate.swift in Sources */,
+				98BF65852350BC7B0047A3E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +336,12 @@
 		};
 		987D350B2350B48200446250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549E9867D7B46D3F7EA2FA55 /* Pods-Handyman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Handyman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,16 +349,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GevorgAvetisyan.Handyman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		987D350C2350B48200446250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B4CD1FBFA933C973BE31FD /* Pods-Handyman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Handyman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GevorgAvetisyan.Handyman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

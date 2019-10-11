@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>442480597635-jvn2r8hna43e3r9tv9ttdmu3b312qf86.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.442480597635-jvn2r8hna43e3r9tv9ttdmu3b312qf86</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAo4GUVSW9W4uKI46ToPBn_vhckus2hjdE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>442480597635</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.GevorgAvetisyan.Handyman</string>
+	<key>PROJECT_ID</key>
+	<string>handyman-36f83</string>
+	<key>STORAGE_BUCKET</key>
+	<string>handyman-36f83.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:442480597635:ios:bd4b65214027cb1bc799b6</string>
+	<key>DATABASE_URL</key>
+	<string>https://handyman-36f83.firebaseio.com</string>
+</dict>
+</plist>
