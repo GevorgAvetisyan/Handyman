@@ -3,32 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9832C76923549F64005155E9 /* OnBoardingSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832C76823549F64005155E9 /* OnBoardingSecondViewController.swift */; };
+		9832C76B23549FDA005155E9 /* OnBoardingThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832C76A23549FDA005155E9 /* OnBoardingThirdViewController.swift */; };
+		9832C76D2354A2E1005155E9 /* OnBoardingFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832C76C2354A2E1005155E9 /* OnBoardingFirstViewController.swift */; };
 		983A03F12350B53C00EB27C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */; };
 		987D34FA2350B48100446250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D34F92350B48100446250 /* AppDelegate.swift */; };
-		987D34FE2350B48100446250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D34FD2350B48100446250 /* ViewController.swift */; };
-		987D35012350B48100446250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987D34FF2350B48100446250 /* Main.storyboard */; };
+		987D35012350B48100446250 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987D34FF2350B48100446250 /* OnBoarding.storyboard */; };
 		987D35032350B48200446250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987D35022350B48200446250 /* Assets.xcassets */; };
 		987D35062350B48200446250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987D35042350B48200446250 /* LaunchScreen.storyboard */; };
+		988614722355DA380023F0CE /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988614712355DA380023F0CE /* DesignableButton.swift */; };
+		988614742355DF9D0023F0CE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988614732355DF9D0023F0CE /* RegisterViewController.swift */; };
+		988614762355E8240023F0CE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988614752355E8240023F0CE /* LogInViewController.swift */; };
+		988614782355EB0F0023F0CE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988614772355EB0F0023F0CE /* ForgotPasswordViewController.swift */; };
 		98BF65852350BC7B0047A3E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */; };
-		EDD9F1A6888CA27AE2055BD6 /* libPods-Handyman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FCF6F2659DC48006B3D14A /* libPods-Handyman.a */; };
+		98FAD7C92354CB3A004F89B7 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAD7C82354CB3A004F89B7 /* Start.storyboard */; };
+		98FAD7CC2354CE1A004F89B7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAD7CB2354CE1A004F89B7 /* StartViewController.swift */; };
+		A0BDC5356149FB5F51EA4BFB /* Pods_Handyman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A232C6955CCA542A1E5B87 /* Pods_Handyman.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		549E9867D7B46D3F7EA2FA55 /* Pods-Handyman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handyman.debug.xcconfig"; path = "Target Support Files/Pods-Handyman/Pods-Handyman.debug.xcconfig"; sourceTree = "<group>"; };
-		92FCF6F2659DC48006B3D14A /* libPods-Handyman.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Handyman.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9832C76823549F64005155E9 /* OnBoardingSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSecondViewController.swift; sourceTree = "<group>"; };
+		9832C76A23549FDA005155E9 /* OnBoardingThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingThirdViewController.swift; sourceTree = "<group>"; };
+		9832C76C2354A2E1005155E9 /* OnBoardingFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingFirstViewController.swift; sourceTree = "<group>"; };
 		983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		987D34F62350B48100446250 /* Handyman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handyman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987D34F92350B48100446250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		987D34FD2350B48100446250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		987D35002350B48100446250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		987D35002350B48100446250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OnBoarding.storyboard; sourceTree = "<group>"; };
 		987D35022350B48200446250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		987D35052350B48200446250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		987D35072350B48200446250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988614712355DA380023F0CE /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		988614732355DF9D0023F0CE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		988614752355E8240023F0CE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		988614772355EB0F0023F0CE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98FAD7C82354CB3A004F89B7 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		98FAD7CB2354CE1A004F89B7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		E1A232C6955CCA542A1E5B87 /* Pods_Handyman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Handyman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4CD1FBFA933C973BE31FD /* Pods-Handyman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handyman.release.xcconfig"; path = "Target Support Files/Pods-Handyman/Pods-Handyman.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD9F1A6888CA27AE2055BD6 /* libPods-Handyman.a in Frameworks */,
+				A0BDC5356149FB5F51EA4BFB /* Pods_Handyman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,9 +63,28 @@
 		8F4DE18F0084AF678E03721B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				92FCF6F2659DC48006B3D14A /* libPods-Handyman.a */,
+				E1A232C6955CCA542A1E5B87 /* Pods_Handyman.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9832C76623549F20005155E9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				98FAD7CA2354CDFC004F89B7 /* Start */,
+				9832C76723549F2D005155E9 /* OnBoarding */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9832C76723549F2D005155E9 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				9832C76823549F64005155E9 /* OnBoardingSecondViewController.swift */,
+				9832C76A23549FDA005155E9 /* OnBoardingThirdViewController.swift */,
+				9832C76C2354A2E1005155E9 /* OnBoardingFirstViewController.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 		987D34ED2350B48100446250 = {
@@ -73,16 +108,61 @@
 		987D34F82350B48100446250 /* Handyman */ = {
 			isa = PBXGroup;
 			children = (
+				98FAD7C72354C98D004F89B7 /* Resources */,
+				98FAD70A2354AA27004F89B7 /* Storyboards */,
+				9832C76623549F20005155E9 /* ViewControllers */,
+			);
+			path = Handyman;
+			sourceTree = "<group>";
+		};
+		988614792355EB950023F0CE /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				988614752355E8240023F0CE /* LogInViewController.swift */,
+				988614772355EB0F0023F0CE /* ForgotPasswordViewController.swift */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		9886147A2355EBA30023F0CE /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		98FAD70A2354AA27004F89B7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				987D34FF2350B48100446250 /* OnBoarding.storyboard */,
+				98FAD7C82354CB3A004F89B7 /* Start.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		98FAD7C72354C98D004F89B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				988614712355DA380023F0CE /* DesignableButton.swift */,
 				987D34F92350B48100446250 /* AppDelegate.swift */,
-				987D34FD2350B48100446250 /* ViewController.swift */,
 				98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */,
-				987D34FF2350B48100446250 /* Main.storyboard */,
 				987D35022350B48200446250 /* Assets.xcassets */,
 				987D35042350B48200446250 /* LaunchScreen.storyboard */,
 				987D35072350B48200446250 /* Info.plist */,
 				983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */,
 			);
-			path = Handyman;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98FAD7CA2354CDFC004F89B7 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				9886147A2355EBA30023F0CE /* Sign Up */,
+				988614792355EB950023F0CE /* Log In */,
+				98FAD7CB2354CE1A004F89B7 /* StartViewController.swift */,
+				988614732355DF9D0023F0CE /* RegisterViewController.swift */,
+			);
+			path = Start;
 			sourceTree = "<group>";
 		};
 		9EA8BCBDA67A240A819A1F3B /* Pods */ = {
@@ -105,6 +185,7 @@
 				987D34F22350B48100446250 /* Sources */,
 				987D34F32350B48100446250 /* Frameworks */,
 				987D34F42350B48100446250 /* Resources */,
+				0BBCEEE150E51E4FD6C271B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,13 +237,31 @@
 				987D35062350B48200446250 /* LaunchScreen.storyboard in Resources */,
 				983A03F12350B53C00EB27C7 /* GoogleService-Info.plist in Resources */,
 				987D35032350B48200446250 /* Assets.xcassets in Resources */,
-				987D35012350B48100446250 /* Main.storyboard in Resources */,
+				987D35012350B48100446250 /* OnBoarding.storyboard in Resources */,
+				98FAD7C92354CB3A004F89B7 /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0BBCEEE150E51E4FD6C271B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Handyman/Pods-Handyman-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Handyman/Pods-Handyman-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Handyman/Pods-Handyman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		909D1715B204D809EFD9BAE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,21 +291,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987D34FE2350B48100446250 /* ViewController.swift in Sources */,
+				9832C76923549F64005155E9 /* OnBoardingSecondViewController.swift in Sources */,
+				9832C76D2354A2E1005155E9 /* OnBoardingFirstViewController.swift in Sources */,
+				988614762355E8240023F0CE /* LogInViewController.swift in Sources */,
+				988614722355DA380023F0CE /* DesignableButton.swift in Sources */,
+				988614742355DF9D0023F0CE /* RegisterViewController.swift in Sources */,
+				9832C76B23549FDA005155E9 /* OnBoardingThirdViewController.swift in Sources */,
+				988614782355EB0F0023F0CE /* ForgotPasswordViewController.swift in Sources */,
 				987D34FA2350B48100446250 /* AppDelegate.swift in Sources */,
 				98BF65852350BC7B0047A3E6 /* SceneDelegate.swift in Sources */,
+				98FAD7CC2354CE1A004F89B7 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		987D34FF2350B48100446250 /* Main.storyboard */ = {
+		987D34FF2350B48100446250 /* OnBoarding.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				987D35002350B48100446250 /* Base */,
 			);
-			name = Main.storyboard;
+			name = OnBoarding.storyboard;
 			sourceTree = "<group>";
 		};
 		987D35042350B48200446250 /* LaunchScreen.storyboard */ = {
@@ -270,6 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/gevavetisyan/Desktop/Handyman/Handyman/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -324,6 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/gevavetisyan/Desktop/Handyman/Handyman/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -340,7 +448,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Handyman/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = Handyman/Resources/Assets.xcassets;
+				INFOPLIST_FILE = /Users/gevavetisyan/Desktop/Handyman/Handyman/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GevorgAvetisyan.Handyman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,7 +468,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Handyman/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = Handyman/Resources/Assets.xcassets;
+				INFOPLIST_FILE = /Users/gevavetisyan/Desktop/Handyman/Handyman/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GevorgAvetisyan.Handyman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
