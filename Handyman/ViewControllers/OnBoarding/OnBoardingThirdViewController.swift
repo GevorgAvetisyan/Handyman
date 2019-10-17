@@ -20,6 +20,7 @@ class OnBoardingThirdViewController: UIViewController {
       }
     
     @IBAction func skipAction(_ sender: UIButton) {
+        UserDefaults.standard.set(false, forKey: "isFirstTime")
         let startStoryboard = UIStoryboard(name: "Start", bundle: nil)
         let vc = startStoryboard.instantiateViewController(identifier: "StartViewController") as! StartViewController
         self.navigationController?.pushViewController(vc, animated: true)

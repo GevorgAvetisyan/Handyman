@@ -2,6 +2,12 @@
  use_frameworks!
 
 target 'Handyman' do
- pod 'Firebase/Analytics'
- pod 'Firebase/Auth'
+use_frameworks!
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'SDWebImage'
 end

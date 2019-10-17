@@ -10,6 +10,7 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    var userType = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +25,15 @@ class RegisterViewController: UIViewController {
     }
     @IBAction func logInAction(_ sender: UIButton) {
         let vc = self.storyboard?.instantiateViewController(identifier: "LogInViewController") as! LogInViewController
+        vc.userType = self.userType
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    @IBAction func signupAction(_ sender: UIButton) {
+        let st = UIStoryboard(name: "SignUp", bundle: nil)
+        let vc = st.instantiateViewController(identifier: "SignUpViewController") as! SignUpViewController
+        vc.userType = self.userType
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

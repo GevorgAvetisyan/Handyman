@@ -10,6 +10,7 @@ import UIKit
 
 class ForgotPasswordViewController: UIViewController {
 
+    var userType = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 

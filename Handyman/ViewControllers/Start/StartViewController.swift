@@ -15,21 +15,26 @@ class StartViewController: UIViewController {
 
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     override var prefersHomeIndicatorAutoHidden: Bool {
         return true
     }
     
 
     @IBAction func handymanAction(_ sender: UIButton) {
-        self.goToRegister()
+        self.goToRegister(userType: "Handyman")
     }
     
-    @IBAction func costumerAction(_ sender: UIButton) {
-        self.goToRegister()
+    @IBAction func customerAction(_ sender: UIButton) {
+        self.goToRegister(userType: "Customer")
     }
     
-    func goToRegister() {
+    func goToRegister(userType:String) {
         let vc = self.storyboard?.instantiateViewController(identifier: "RegisterViewController") as! RegisterViewController
+        vc.userType = userType
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

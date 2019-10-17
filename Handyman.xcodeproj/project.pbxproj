@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980EBAB4235877B500A7DFD7 /* AddPayoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EBAB3235877B500A7DFD7 /* AddPayoutTableViewCell.swift */; };
+		981AC4CA23573B7E009C7D0E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AC4C923573B7E009C7D0E /* SignUpViewController.swift */; };
+		981AC4CC235740CA009C7D0E /* ActiveAcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AC4CB235740CA009C7D0E /* ActiveAcountViewController.swift */; };
+		981AC4D0235746AB009C7D0E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AC4CF235746AB009C7D0E /* HeaderView.swift */; };
+		981AC4D2235746BE009C7D0E /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981AC4D1235746BE009C7D0E /* HeaderView.xib */; };
+		981AC4D423574E14009C7D0E /* AddPayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AC4D323574E14009C7D0E /* AddPayoutViewController.swift */; };
 		9832C76923549F64005155E9 /* OnBoardingSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832C76823549F64005155E9 /* OnBoardingSecondViewController.swift */; };
 		9832C76B23549FDA005155E9 /* OnBoardingThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832C76A23549FDA005155E9 /* OnBoardingThirdViewController.swift */; };
 		9832C76D2354A2E1005155E9 /* OnBoardingFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832C76C2354A2E1005155E9 /* OnBoardingFirstViewController.swift */; };
 		983A03F12350B53C00EB27C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */; };
+		987892C42358AA6600027292 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987892C32358AA6600027292 /* MainNavigationController.swift */; };
 		987D34FA2350B48100446250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D34F92350B48100446250 /* AppDelegate.swift */; };
 		987D35012350B48100446250 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987D34FF2350B48100446250 /* OnBoarding.storyboard */; };
 		987D35032350B48200446250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987D35022350B48200446250 /* Assets.xcassets */; };
@@ -20,17 +27,27 @@
 		988614762355E8240023F0CE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988614752355E8240023F0CE /* LogInViewController.swift */; };
 		988614782355EB0F0023F0CE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988614772355EB0F0023F0CE /* ForgotPasswordViewController.swift */; };
 		98BF65852350BC7B0047A3E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */; };
+		98F8443A23573887003BA8EA /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F8443923573887003BA8EA /* SignUp.storyboard */; };
 		98FAD7C92354CB3A004F89B7 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAD7C82354CB3A004F89B7 /* Start.storyboard */; };
 		98FAD7CC2354CE1A004F89B7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAD7CB2354CE1A004F89B7 /* StartViewController.swift */; };
+		98FD1B0B23588AE000BACBB6 /* Handyman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD1B0A23588AE000BACBB6 /* Handyman.swift */; };
+		98FD1B0D23589E0200BACBB6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD1B0C23589E0200BACBB6 /* Customer.swift */; };
 		A0BDC5356149FB5F51EA4BFB /* Pods_Handyman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A232C6955CCA542A1E5B87 /* Pods_Handyman.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		549E9867D7B46D3F7EA2FA55 /* Pods-Handyman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handyman.debug.xcconfig"; path = "Target Support Files/Pods-Handyman/Pods-Handyman.debug.xcconfig"; sourceTree = "<group>"; };
+		980EBAB3235877B500A7DFD7 /* AddPayoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayoutTableViewCell.swift; sourceTree = "<group>"; };
+		981AC4C923573B7E009C7D0E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		981AC4CB235740CA009C7D0E /* ActiveAcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveAcountViewController.swift; sourceTree = "<group>"; };
+		981AC4CF235746AB009C7D0E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		981AC4D1235746BE009C7D0E /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		981AC4D323574E14009C7D0E /* AddPayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayoutViewController.swift; sourceTree = "<group>"; };
 		9832C76823549F64005155E9 /* OnBoardingSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSecondViewController.swift; sourceTree = "<group>"; };
 		9832C76A23549FDA005155E9 /* OnBoardingThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingThirdViewController.swift; sourceTree = "<group>"; };
 		9832C76C2354A2E1005155E9 /* OnBoardingFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingFirstViewController.swift; sourceTree = "<group>"; };
 		983A03F02350B53C00EB27C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		987892C32358AA6600027292 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		987D34F62350B48100446250 /* Handyman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handyman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987D34F92350B48100446250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		987D35002350B48100446250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OnBoarding.storyboard; sourceTree = "<group>"; };
@@ -42,8 +59,11 @@
 		988614752355E8240023F0CE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		988614772355EB0F0023F0CE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98F8443923573887003BA8EA /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		98FAD7C82354CB3A004F89B7 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		98FAD7CB2354CE1A004F89B7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		98FD1B0A23588AE000BACBB6 /* Handyman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handyman.swift; sourceTree = "<group>"; };
+		98FD1B0C23589E0200BACBB6 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		E1A232C6955CCA542A1E5B87 /* Pods_Handyman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Handyman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4CD1FBFA933C973BE31FD /* Pods-Handyman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handyman.release.xcconfig"; path = "Target Support Files/Pods-Handyman/Pods-Handyman.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,9 +88,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		981AC4CD2357466D009C7D0E /* View's */ = {
+			isa = PBXGroup;
+			children = (
+				981AC4CE23574687009C7D0E /* Header View */,
+				988614712355DA380023F0CE /* DesignableButton.swift */,
+				980EBAB3235877B500A7DFD7 /* AddPayoutTableViewCell.swift */,
+			);
+			path = "View's";
+			sourceTree = "<group>";
+		};
+		981AC4CE23574687009C7D0E /* Header View */ = {
+			isa = PBXGroup;
+			children = (
+				981AC4CF235746AB009C7D0E /* HeaderView.swift */,
+				981AC4D1235746BE009C7D0E /* HeaderView.xib */,
+			);
+			path = "Header View";
+			sourceTree = "<group>";
+		};
 		9832C76623549F20005155E9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				987892C32358AA6600027292 /* MainNavigationController.swift */,
 				98FAD7CA2354CDFC004F89B7 /* Start */,
 				9832C76723549F2D005155E9 /* OnBoarding */,
 			);
@@ -108,6 +148,8 @@
 		987D34F82350B48100446250 /* Handyman */ = {
 			isa = PBXGroup;
 			children = (
+				98FD1B0923588ACE00BACBB6 /* Models */,
+				981AC4CD2357466D009C7D0E /* View's */,
 				98FAD7C72354C98D004F89B7 /* Resources */,
 				98FAD70A2354AA27004F89B7 /* Storyboards */,
 				9832C76623549F20005155E9 /* ViewControllers */,
@@ -127,6 +169,9 @@
 		9886147A2355EBA30023F0CE /* Sign Up */ = {
 			isa = PBXGroup;
 			children = (
+				981AC4C923573B7E009C7D0E /* SignUpViewController.swift */,
+				981AC4CB235740CA009C7D0E /* ActiveAcountViewController.swift */,
+				981AC4D323574E14009C7D0E /* AddPayoutViewController.swift */,
 			);
 			path = "Sign Up";
 			sourceTree = "<group>";
@@ -136,6 +181,7 @@
 			children = (
 				987D34FF2350B48100446250 /* OnBoarding.storyboard */,
 				98FAD7C82354CB3A004F89B7 /* Start.storyboard */,
+				98F8443923573887003BA8EA /* SignUp.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -143,7 +189,6 @@
 		98FAD7C72354C98D004F89B7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				988614712355DA380023F0CE /* DesignableButton.swift */,
 				987D34F92350B48100446250 /* AppDelegate.swift */,
 				98BF65842350BC7B0047A3E6 /* SceneDelegate.swift */,
 				987D35022350B48200446250 /* Assets.xcassets */,
@@ -163,6 +208,15 @@
 				988614732355DF9D0023F0CE /* RegisterViewController.swift */,
 			);
 			path = Start;
+			sourceTree = "<group>";
+		};
+		98FD1B0923588ACE00BACBB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98FD1B0A23588AE000BACBB6 /* Handyman.swift */,
+				98FD1B0C23589E0200BACBB6 /* Customer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9EA8BCBDA67A240A819A1F3B /* Pods */ = {
@@ -236,9 +290,11 @@
 			files = (
 				987D35062350B48200446250 /* LaunchScreen.storyboard in Resources */,
 				983A03F12350B53C00EB27C7 /* GoogleService-Info.plist in Resources */,
+				98F8443A23573887003BA8EA /* SignUp.storyboard in Resources */,
 				987D35032350B48200446250 /* Assets.xcassets in Resources */,
 				987D35012350B48100446250 /* OnBoarding.storyboard in Resources */,
 				98FAD7C92354CB3A004F89B7 /* Start.storyboard in Resources */,
+				981AC4D2235746BE009C7D0E /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +347,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987892C42358AA6600027292 /* MainNavigationController.swift in Sources */,
+				981AC4CC235740CA009C7D0E /* ActiveAcountViewController.swift in Sources */,
+				981AC4CA23573B7E009C7D0E /* SignUpViewController.swift in Sources */,
 				9832C76923549F64005155E9 /* OnBoardingSecondViewController.swift in Sources */,
 				9832C76D2354A2E1005155E9 /* OnBoardingFirstViewController.swift in Sources */,
 				988614762355E8240023F0CE /* LogInViewController.swift in Sources */,
@@ -298,9 +357,14 @@
 				988614742355DF9D0023F0CE /* RegisterViewController.swift in Sources */,
 				9832C76B23549FDA005155E9 /* OnBoardingThirdViewController.swift in Sources */,
 				988614782355EB0F0023F0CE /* ForgotPasswordViewController.swift in Sources */,
+				98FD1B0B23588AE000BACBB6 /* Handyman.swift in Sources */,
 				987D34FA2350B48100446250 /* AppDelegate.swift in Sources */,
+				981AC4D423574E14009C7D0E /* AddPayoutViewController.swift in Sources */,
 				98BF65852350BC7B0047A3E6 /* SceneDelegate.swift in Sources */,
 				98FAD7CC2354CE1A004F89B7 /* StartViewController.swift in Sources */,
+				98FD1B0D23589E0200BACBB6 /* Customer.swift in Sources */,
+				981AC4D0235746AB009C7D0E /* HeaderView.swift in Sources */,
+				980EBAB4235877B500A7DFD7 /* AddPayoutTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

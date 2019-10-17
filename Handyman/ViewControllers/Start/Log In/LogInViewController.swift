@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LogInViewController: UIViewController {
     
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    var userType = ""
     
     
     override func viewDidLoad() {
@@ -27,6 +31,15 @@ class LogInViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func loginAction(_ sender: DesignableButton) {
+        Auth.auth().signIn(withEmail: self.emailTextField.text!, password: self.passwordTextField.text!) { (authResult, error) in
+            guard authResult != nil && error == nil else {
+                print("Faild")
+                return
+            }
+            print("sucess")
+        }
+    }
     
     @IBAction func forgotAction(_ sender: UIButton) {
         let vc = self.storyboard?.instantiateViewController(identifier: "ForgotPasswordViewController") as! ForgotPasswordViewController
