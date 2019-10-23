@@ -243,13 +243,13 @@ new member </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rf8-S7-QT7">
-                                <rect key="frame" x="152" y="60" width="71" height="30"/>
+                                <rect key="frame" x="152" y="10" width="71" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" red="0.99314743279999995" green="0.99328964949999998" blue="0.99311631919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back to Handyman !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seT-Zc-8y3">
-                                <rect key="frame" x="73.5" y="110" width="228.5" height="20.5"/>
+                                <rect key="frame" x="73.5" y="60" width="228.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.99314743279999995" green="0.99328964949999998" blue="0.99311631919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -269,7 +269,7 @@ new member </string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzy-0m-SMv" customClass="DesignableButton" customModule="Handyman" customModuleProvider="target">
-                                <rect key="frame" x="127.5" y="522" width="120" height="60"/>
+                                <rect key="frame" x="127.5" y="497" width="120" height="60"/>
                                 <color key="backgroundColor" red="0.17046281699999999" green="0.64435076710000005" blue="0.7485630512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="GLn-wY-Gqo"/>
@@ -292,18 +292,13 @@ new member </string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NK-OX-gjK">
-                                <rect key="frame" x="20" y="230.5" width="82" height="24"/>
+                                <rect key="frame" x="20" y="180.5" width="82" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <color key="textColor" red="0.99314743279999995" green="0.99328964949999998" blue="0.99311631919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RvL-mV-hag">
-                                <rect key="frame" x="20" y="362.5" width="335" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhy-SU-9du">
-                                <rect key="frame" x="20" y="328.5" width="87" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhy-SU-9du">
+                                <rect key="frame" x="20" y="264.5" width="87" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <color key="textColor" red="0.99314743279999995" green="0.99328964949999998" blue="0.99311631919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -320,46 +315,52 @@ new member </string>
                                     <action selector="backAction:" destination="BGe-Sd-ShZ" eventType="touchUpInside" id="9vl-TG-RY9"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E5g-vP-jHM">
-                                <rect key="frame" x="20" y="264.5" width="335" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fzk-5v-N3E" customClass="CustomTextField" customModule="Handyman" customModuleProvider="target">
+                                <rect key="frame" x="20" y="214.5" width="335" height="30"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="a0h-9V-vEU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tV4-Oa-T1A" customClass="CustomTextField" customModule="Handyman" customModuleProvider="target">
+                                <rect key="frame" x="20" y="298.5" width="335" height="30"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.16304361819999999" green="0.20701193809999999" blue="0.31655001640000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="seT-Zc-8y3" firstAttribute="centerX" secondItem="mhl-2j-VSL" secondAttribute="centerX" id="0ni-FV-llO"/>
-                            <constraint firstItem="E5g-vP-jHM" firstAttribute="top" secondItem="0NK-OX-gjK" secondAttribute="bottom" constant="10" id="4WE-Ol-Fl4"/>
+                            <constraint firstItem="Fzk-5v-N3E" firstAttribute="top" secondItem="0NK-OX-gjK" secondAttribute="bottom" constant="10" id="7UA-Xb-4RN"/>
                             <constraint firstItem="seT-Zc-8y3" firstAttribute="top" secondItem="Rf8-S7-QT7" secondAttribute="bottom" constant="20" id="7bw-aS-gIO"/>
-                            <constraint firstItem="Vhy-SU-9du" firstAttribute="leading" secondItem="RvL-mV-hag" secondAttribute="leading" id="AkJ-Cy-KtW"/>
-                            <constraint firstItem="Vhy-SU-9du" firstAttribute="top" secondItem="E5g-vP-jHM" secondAttribute="bottom" constant="30" id="BCp-Af-SLx"/>
-                            <constraint firstItem="0NK-OX-gjK" firstAttribute="leading" secondItem="E5g-vP-jHM" secondAttribute="leading" id="BQl-AD-IQk"/>
-                            <constraint firstItem="Rf8-S7-QT7" firstAttribute="top" secondItem="TLC-8E-UhW" secondAttribute="top" constant="60" id="G91-Aj-mCv"/>
-                            <constraint firstItem="RvL-mV-hag" firstAttribute="top" secondItem="Vhy-SU-9du" secondAttribute="bottom" constant="10" id="GNZ-IJ-pGP"/>
+                            <constraint firstItem="0NK-OX-gjK" firstAttribute="leading" secondItem="TLC-8E-UhW" secondAttribute="leading" constant="20" id="FD2-sD-BVl"/>
+                            <constraint firstItem="Rf8-S7-QT7" firstAttribute="top" secondItem="TLC-8E-UhW" secondAttribute="top" constant="10" id="G91-Aj-mCv"/>
                             <constraint firstItem="5TF-lL-345" firstAttribute="leading" secondItem="TLC-8E-UhW" secondAttribute="leading" constant="20" id="N1m-Sc-4C0"/>
-                            <constraint firstItem="fdC-lG-jfW" firstAttribute="top" secondItem="bzy-0m-SMv" secondAttribute="bottom" constant="25" id="NLg-gU-HsS"/>
+                            <constraint firstItem="fdC-lG-jfW" firstAttribute="top" secondItem="bzy-0m-SMv" secondAttribute="bottom" constant="50" id="NLg-gU-HsS"/>
                             <constraint firstItem="Rf8-S7-QT7" firstAttribute="centerX" secondItem="mhl-2j-VSL" secondAttribute="centerX" id="Rby-FQ-aXE"/>
                             <constraint firstItem="fdC-lG-jfW" firstAttribute="leading" secondItem="TLC-8E-UhW" secondAttribute="leading" id="TM3-mB-nov"/>
-                            <constraint firstItem="RvL-mV-hag" firstAttribute="leading" secondItem="TLC-8E-UhW" secondAttribute="leading" constant="20" id="ZEd-CS-uvu"/>
-                            <constraint firstItem="TLC-8E-UhW" firstAttribute="trailing" secondItem="RvL-mV-hag" secondAttribute="trailing" constant="20" id="ZSW-jG-xGD"/>
+                            <constraint firstItem="Vhy-SU-9du" firstAttribute="top" secondItem="Fzk-5v-N3E" secondAttribute="bottom" constant="20" id="XTi-Yc-oIq"/>
+                            <constraint firstItem="tV4-Oa-T1A" firstAttribute="leading" secondItem="TLC-8E-UhW" secondAttribute="leading" constant="20" id="d5j-Mu-fn2"/>
                             <constraint firstItem="5TF-lL-345" firstAttribute="top" secondItem="TLC-8E-UhW" secondAttribute="top" constant="10" id="dIU-ku-ecu"/>
+                            <constraint firstItem="tV4-Oa-T1A" firstAttribute="height" secondItem="Fzk-5v-N3E" secondAttribute="height" id="eDJ-oA-EUy"/>
+                            <constraint firstItem="TLC-8E-UhW" firstAttribute="trailing" secondItem="Fzk-5v-N3E" secondAttribute="trailing" constant="20" id="fJf-9p-Ydu"/>
                             <constraint firstAttribute="bottom" secondItem="fdC-lG-jfW" secondAttribute="bottom" id="fXR-Jp-QiR"/>
                             <constraint firstItem="TLC-8E-UhW" firstAttribute="trailing" secondItem="fdC-lG-jfW" secondAttribute="trailing" id="fjX-Mr-sb6"/>
-                            <constraint firstItem="TLC-8E-UhW" firstAttribute="trailing" secondItem="E5g-vP-jHM" secondAttribute="trailing" constant="20" id="o2j-6o-4is"/>
+                            <constraint firstItem="tV4-Oa-T1A" firstAttribute="top" secondItem="Vhy-SU-9du" secondAttribute="bottom" constant="10" id="gQI-OK-ARw"/>
+                            <constraint firstItem="Fzk-5v-N3E" firstAttribute="leading" secondItem="TLC-8E-UhW" secondAttribute="leading" constant="20" id="h3a-ap-3Pm"/>
+                            <constraint firstItem="TLC-8E-UhW" firstAttribute="trailing" secondItem="tV4-Oa-T1A" secondAttribute="trailing" constant="20" id="lRQ-8P-E9R"/>
                             <constraint firstItem="0NK-OX-gjK" firstAttribute="top" secondItem="seT-Zc-8y3" secondAttribute="bottom" constant="100" id="s0Z-e7-Vci"/>
-                            <constraint firstItem="E5g-vP-jHM" firstAttribute="leading" secondItem="TLC-8E-UhW" secondAttribute="leading" constant="20" id="u0Y-1j-cZd"/>
                             <constraint firstItem="bzy-0m-SMv" firstAttribute="centerX" secondItem="mhl-2j-VSL" secondAttribute="centerX" id="zwe-bs-3WH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TLC-8E-UhW"/>
                     </view>
                     <connections>
-                        <outlet property="emailTextField" destination="E5g-vP-jHM" id="O02-Ma-d0a"/>
-                        <outlet property="passwordTextField" destination="RvL-mV-hag" id="WG2-Oo-Ajg"/>
+                        <outlet property="emailTextField" destination="Fzk-5v-N3E" id="TZ4-Op-Jl1"/>
+                        <outlet property="passwordTextField" destination="tV4-Oa-T1A" id="ReX-B8-Mom"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IzJ-OQ-YZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2535" y="126"/>
+            <point key="canvasLocation" x="2533.5999999999999" y="125.4872563718141"/>
         </scene>
         <!--Forgot Password View Controller-->
         <scene sceneID="NtX-v5-bly">
