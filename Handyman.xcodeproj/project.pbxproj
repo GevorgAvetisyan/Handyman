@@ -33,10 +33,15 @@
 		98FD1B0B23588AE000BACBB6 /* Handyman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD1B0A23588AE000BACBB6 /* Handyman.swift */; };
 		98FD1B0D23589E0200BACBB6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD1B0C23589E0200BACBB6 /* Customer.swift */; };
 		A0BDC5356149FB5F51EA4BFB /* Pods_Handyman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A232C6955CCA542A1E5B87 /* Pods_Handyman.framework */; };
+		ED363D1A236C28BF0034C041 /* HandymanJobsDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED363D19236C28BE0034C041 /* HandymanJobsDateTableViewCell.swift */; };
+		ED363D1F236C29770034C041 /* HandymanJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED363D1E236C29770034C041 /* HandymanJobsViewController.swift */; };
+		ED363D21236C29C80034C041 /* HandymanJobsFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED363D20236C29C80034C041 /* HandymanJobsFilterViewController.swift */; };
 		EDDBFDAD236064CA009E4E23 /* HandymanProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDBFDAC236064CA009E4E23 /* HandymanProfile.storyboard */; };
 		EDDBFDB0236066D1009E4E23 /* HandimanProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDBFDAF236066D1009E4E23 /* HandimanProfileViewController.swift */; };
 		EDDBFDB323607836009E4E23 /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDBFDB223607836009E4E23 /* CustomTextField.xib */; };
 		EDDBFDB5236078F0009E4E23 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDBFDB4236078F0009E4E23 /* CustomTextField.swift */; };
+		EDF9194B2361CFC60080C0CB /* HandymanJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9194A2361CFC60080C0CB /* HandymanJobsTableViewCell.swift */; };
+		EDF9194D2361DBCC0080C0CB /* HandymanJobs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF9194C2361DBCC0080C0CB /* HandymanJobs.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,10 +75,15 @@
 		98FD1B0C23589E0200BACBB6 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		E1A232C6955CCA542A1E5B87 /* Pods_Handyman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Handyman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4CD1FBFA933C973BE31FD /* Pods-Handyman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handyman.release.xcconfig"; path = "Target Support Files/Pods-Handyman/Pods-Handyman.release.xcconfig"; sourceTree = "<group>"; };
+		ED363D19236C28BE0034C041 /* HandymanJobsDateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HandymanJobsDateTableViewCell.swift; path = "/Users/gevorgavetisyan/Desktop/Handyman/Handyman/View's/TableViewVell's/HandymanJobsDateTableViewCell.swift"; sourceTree = "<absolute>"; };
+		ED363D1E236C29770034C041 /* HandymanJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandymanJobsViewController.swift; sourceTree = "<group>"; };
+		ED363D20236C29C80034C041 /* HandymanJobsFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandymanJobsFilterViewController.swift; sourceTree = "<group>"; };
 		EDDBFDAC236064CA009E4E23 /* HandymanProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HandymanProfile.storyboard; sourceTree = "<group>"; };
 		EDDBFDAF236066D1009E4E23 /* HandimanProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandimanProfileViewController.swift; sourceTree = "<group>"; };
 		EDDBFDB223607836009E4E23 /* CustomTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
 		EDDBFDB4236078F0009E4E23 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EDF9194A2361CFC60080C0CB /* HandymanJobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandymanJobsTableViewCell.swift; sourceTree = "<group>"; };
+		EDF9194C2361DBCC0080C0CB /* HandymanJobs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HandymanJobs.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,10 @@
 		981AC4CD2357466D009C7D0E /* View's */ = {
 			isa = PBXGroup;
 			children = (
+				ED363D18236C28200034C041 /* TableViewVell's */,
 				EDDBFDB123607806009E4E23 /* CustomTextField */,
 				981AC4CE23574687009C7D0E /* Header View */,
 				988614712355DA380023F0CE /* DesignableButton.swift */,
-				980EBAB3235877B500A7DFD7 /* AddPayoutTableViewCell.swift */,
 			);
 			path = "View's";
 			sourceTree = "<group>";
@@ -119,6 +129,7 @@
 		9832C76623549F20005155E9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				ED363D1D236C295F0034C041 /* HandymanJobs */,
 				EDDBFDAE236066A4009E4E23 /* HandymanProfile */,
 				987892C32358AA6600027292 /* MainNavigationController.swift */,
 				98FAD7CA2354CDFC004F89B7 /* Start */,
@@ -193,6 +204,7 @@
 				98FAD7C82354CB3A004F89B7 /* Start.storyboard */,
 				98F8443923573887003BA8EA /* SignUp.storyboard */,
 				EDDBFDAC236064CA009E4E23 /* HandymanProfile.storyboard */,
+				EDF9194C2361DBCC0080C0CB /* HandymanJobs.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -237,6 +249,25 @@
 				E2B4CD1FBFA933C973BE31FD /* Pods-Handyman.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED363D18236C28200034C041 /* TableViewVell's */ = {
+			isa = PBXGroup;
+			children = (
+				ED363D19236C28BE0034C041 /* HandymanJobsDateTableViewCell.swift */,
+				980EBAB3235877B500A7DFD7 /* AddPayoutTableViewCell.swift */,
+				EDF9194A2361CFC60080C0CB /* HandymanJobsTableViewCell.swift */,
+			);
+			path = "TableViewVell's";
+			sourceTree = "<group>";
+		};
+		ED363D1D236C295F0034C041 /* HandymanJobs */ = {
+			isa = PBXGroup;
+			children = (
+				ED363D1E236C29770034C041 /* HandymanJobsViewController.swift */,
+				ED363D20236C29C80034C041 /* HandymanJobsFilterViewController.swift */,
+			);
+			path = HandymanJobs;
 			sourceTree = "<group>";
 		};
 		EDDBFDAE236066A4009E4E23 /* HandymanProfile */ = {
@@ -320,6 +351,7 @@
 				983A03F12350B53C00EB27C7 /* GoogleService-Info.plist in Resources */,
 				EDDBFDAD236064CA009E4E23 /* HandymanProfile.storyboard in Resources */,
 				98F8443A23573887003BA8EA /* SignUp.storyboard in Resources */,
+				EDF9194D2361DBCC0080C0CB /* HandymanJobs.storyboard in Resources */,
 				987D35032350B48200446250 /* Assets.xcassets in Resources */,
 				EDDBFDB323607836009E4E23 /* CustomTextField.xib in Resources */,
 				987D35012350B48100446250 /* OnBoarding.storyboard in Resources */,
@@ -381,10 +413,12 @@
 				981AC4CC235740CA009C7D0E /* ActiveAcountViewController.swift in Sources */,
 				EDDBFDB0236066D1009E4E23 /* HandimanProfileViewController.swift in Sources */,
 				981AC4CA23573B7E009C7D0E /* SignUpViewController.swift in Sources */,
+				ED363D21236C29C80034C041 /* HandymanJobsFilterViewController.swift in Sources */,
 				EDDBFDB5236078F0009E4E23 /* CustomTextField.swift in Sources */,
 				9832C76923549F64005155E9 /* OnBoardingSecondViewController.swift in Sources */,
 				9832C76D2354A2E1005155E9 /* OnBoardingFirstViewController.swift in Sources */,
 				988614762355E8240023F0CE /* LogInViewController.swift in Sources */,
+				ED363D1F236C29770034C041 /* HandymanJobsViewController.swift in Sources */,
 				988614722355DA380023F0CE /* DesignableButton.swift in Sources */,
 				988614742355DF9D0023F0CE /* RegisterViewController.swift in Sources */,
 				9832C76B23549FDA005155E9 /* OnBoardingThirdViewController.swift in Sources */,
@@ -395,8 +429,10 @@
 				98BF65852350BC7B0047A3E6 /* SceneDelegate.swift in Sources */,
 				98FAD7CC2354CE1A004F89B7 /* StartViewController.swift in Sources */,
 				98FD1B0D23589E0200BACBB6 /* Customer.swift in Sources */,
+				EDF9194B2361CFC60080C0CB /* HandymanJobsTableViewCell.swift in Sources */,
 				981AC4D0235746AB009C7D0E /* HeaderView.swift in Sources */,
 				980EBAB4235877B500A7DFD7 /* AddPayoutTableViewCell.swift in Sources */,
+				ED363D1A236C28BF0034C041 /* HandymanJobsDateTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

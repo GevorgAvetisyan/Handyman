@@ -24,7 +24,7 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="30"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5iq-9z-Kvp">
-                            <rect key="frame" x="0.0" y="0.0" width="34" height="30"/>
+                            <rect key="frame" x="-1" y="0.0" width="34" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="34" id="nAM-01-4PD"/>
                             </constraints>
@@ -36,10 +36,10 @@
                             </userDefinedRuntimeAttributes>
                         </imageView>
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZOy-h4-jW5">
-                            <rect key="frame" x="34" y="0.0" width="380" height="30"/>
+                            <rect key="frame" x="33" y="0.0" width="381" height="30"/>
                             <subviews>
                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qqZ-la-ixZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="350" height="30"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="351" height="30"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <userDefinedRuntimeAttributes>
@@ -50,7 +50,11 @@
                                     </userDefinedRuntimeAttributes>
                                 </textField>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKf-nt-mtI">
-                                    <rect key="frame" x="350" y="0.0" width="30" height="30"/>
+                                    <rect key="frame" x="351" y="0.0" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="jZo-tE-nVL"/>
+                                        <constraint firstAttribute="height" constant="30" id="lL0-3N-qde"/>
+                                    </constraints>
                                     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" backgroundImage="show"/>
                                 </button>
@@ -71,7 +75,7 @@
                         <constraint firstItem="5iq-9z-Kvp" firstAttribute="top" secondItem="o2Q-EU-Cxw" secondAttribute="top" id="7dE-Jf-aAU"/>
                         <constraint firstAttribute="trailing" secondItem="ZOy-h4-jW5" secondAttribute="trailing" id="A1W-EX-O1N"/>
                         <constraint firstItem="ZOy-h4-jW5" firstAttribute="leading" secondItem="5iq-9z-Kvp" secondAttribute="trailing" id="G0W-2O-v86"/>
-                        <constraint firstItem="5iq-9z-Kvp" firstAttribute="leading" secondItem="o2Q-EU-Cxw" secondAttribute="leading" id="Q25-VD-D1B"/>
+                        <constraint firstItem="5iq-9z-Kvp" firstAttribute="leading" secondItem="o2Q-EU-Cxw" secondAttribute="leading" constant="-1" id="Q25-VD-D1B"/>
                         <constraint firstAttribute="bottom" secondItem="5iq-9z-Kvp" secondAttribute="bottom" id="aMN-tU-rDx"/>
                         <constraint firstAttribute="bottom" secondItem="ZOy-h4-jW5" secondAttribute="bottom" id="lqr-fr-5be"/>
                     </constraints>
