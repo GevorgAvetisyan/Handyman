@@ -24,7 +24,7 @@ class RegisterViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     @IBAction func logInAction(_ sender: UIButton) {
-        let vc = self.storyboard?.instantiateViewController(identifier: "LogInViewController") as! LogInViewController
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
         vc.userType = self.userType
         self.navigationController?.pushViewController(vc, animated: true)
     }
@@ -32,7 +32,7 @@ class RegisterViewController: UIViewController {
     
     @IBAction func signupAction(_ sender: UIButton) {
         let st = UIStoryboard(name: "SignUp", bundle: nil)
-        let vc = st.instantiateViewController(identifier: "SignUpViewController") as! SignUpViewController
+        let vc = st.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
         vc.userType = self.userType
         self.navigationController?.pushViewController(vc, animated: true)
     }

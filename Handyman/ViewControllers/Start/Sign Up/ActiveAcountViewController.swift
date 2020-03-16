@@ -20,7 +20,7 @@ class ActiveAcountViewController: UIViewController {
     }
     
     @IBAction func cvrAction(_ sender: UIButton) {
-        let vc = self.storyboard?.instantiateViewController(identifier: "AddPayoutViewController") as! AddPayoutViewController
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AddPayoutViewController") as! AddPayoutViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

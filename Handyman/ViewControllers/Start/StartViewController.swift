@@ -33,7 +33,7 @@ class StartViewController: UIViewController {
     }
     
     func goToRegister(userType:String) {
-        let vc = self.storyboard?.instantiateViewController(identifier: "RegisterViewController") as! RegisterViewController
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "RegisterViewController") as! RegisterViewController
         vc.userType = userType
         self.navigationController?.pushViewController(vc, animated: true)
     }

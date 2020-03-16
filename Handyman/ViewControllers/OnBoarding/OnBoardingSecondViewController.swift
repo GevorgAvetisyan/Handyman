@@ -20,7 +20,7 @@ class OnBoardingSecondViewController: UIViewController {
       }
 
     @IBAction func skipAction(_ sender: UIButton) {
-        let vc = self.storyboard?.instantiateViewController(identifier: "OnBoardingThirdViewController") as! OnBoardingThirdViewController
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "OnBoardingThirdViewController") as! OnBoardingThirdViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

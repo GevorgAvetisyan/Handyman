@@ -28,12 +28,12 @@ class MainNavigationController: UINavigationController {
         self.startStoryboard = UIStoryboard(name: "Start", bundle: nil)
         let isFirstTime = UserDefaults.standard.bool(forKey: "isFirstTime")
         guard isFirstTime == false else {
-            let vc = onBoardinStoryboard?.instantiateViewController(identifier: "OnBoardingFirstViewController") as! OnBoardingFirstViewController
+            let vc = onBoardinStoryboard?.instantiateViewController(withIdentifier: "OnBoardingFirstViewController") as! OnBoardingFirstViewController
             pushViewController(vc, animated: true)
             return
         }
         
-        let vc = startStoryboard?.instantiateViewController(identifier: "StartViewController") as! StartViewController
+        let vc = startStoryboard?.instantiateViewController(withIdentifier: "StartViewController") as! StartViewController
         pushViewController(vc, animated: true)
     }
 }

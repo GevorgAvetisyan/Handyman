@@ -45,13 +45,13 @@ class LogInViewController: UIViewController {
             }
             print("sucess")
             let st = UIStoryboard(name: "HandymanProfile", bundle: nil)
-            let vc = st.instantiateViewController(identifier: "HandimanProfileViewController") as! HandimanProfileViewController
-            self.navigationController?.pushViewController(vc, animated: true)
+//            let vc = st.instantiateViewController(identifier: "HandimanProfileViewController") as! HandimanProfileViewController
+//            self.navigationController?.pushViewController(vc, animated: true)
         }
     }
     
     @IBAction func forgotAction(_ sender: UIButton) {
-        let vc = self.storyboard?.instantiateViewController(identifier: "ForgotPasswordViewController") as! ForgotPasswordViewController
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ForgotPasswordViewController") as! ForgotPasswordViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
